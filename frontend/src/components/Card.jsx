@@ -32,8 +32,8 @@ function Card({ task }) {
   };
 
   return (
-    <div className="bg-gradient-to-b from-green-600 to-green-700 text-black text-white rounded-xl p-2 pb-5 w-80 md:w-72 shadow-lg relative">
-      <div className="h-56 rounded-lg mb-4 relative">
+    <div className="bg-gradient-to-b from-green-600 to-green-700 rounded-xl p-2 pb-5 w-80 md:w-72 shadow-lg relative">
+      <div className=" bg-gray-200 h-56 rounded-lg mb-4 relative ">
         <img
           src={task?.images?.[0] || ""}
           alt={task?.title || "Task Image"}
