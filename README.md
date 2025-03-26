@@ -132,7 +132,7 @@ algoroot-assignment/frontend
 
 - Frontend Link : [https://algoroot-assignment.vercel.app/](https://algoroot-assignment.vercel.app/)
 
-- Backend Link : [https://algoroot-assignment.backend.vercel.app/](https://algoroot-assignment.backend.vercel.app/)
+- Backend Link : [https://algoroot-assignment-backend.vercel.app/](https://algoroot-assignment-backend.vercel.app/)
 
 - Postman Link : [https://www.postman.com/assignment-7873/algoroot-assignment/collection/vr8lvmt/algoroot-assignment?action=share&creator=35181588](https://www.postman.com/assignment-7873/algoroot-assignment/collection/vr8lvmt/algoroot-assignment?action=share&creator=35181588)
 
