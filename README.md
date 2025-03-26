@@ -33,6 +33,7 @@ To get started with the project, follow these steps:
 algoroot-assignment/backend
     |── src/
     │   ├── config/
+    │   │   ├── cloudinary.ts
     │   │   ├── mongoConfig.ts
     │   ├── controllers/
     │   │   ├── authController.ts
@@ -40,6 +41,7 @@ algoroot-assignment/backend
     │   ├── middleware/
     │   │   ├── auth.ts
     │   │   ├── error.ts
+    │   │   ├── fileUpload.ts
     │   ├── models/
     │   │   ├── authModel.ts
     │   │   ├── taskModel.ts
@@ -52,6 +54,7 @@ algoroot-assignment/backend
     │   │   ├── express.d.ts
     │   ├── utils/
     │   │   ├── auth.ts
+    │   │   ├── cloudinary.ts
     │   │   ├── errorHandler.ts
     │   │   ├── sendMail.ts
     │   │ 
@@ -99,12 +102,16 @@ Base URL: `/api/tasks`   (All this routes are authenticated)
 algoroot-assignment/frontend
     │-- public/
     │-- src/
-    │   │-- components/       # Reusable UI components
-    │   │-- pages/            # Page components
     │   │-- assets/           # Static assets
+    │   │-- components/       # Reusable UI components
+    │   │-- context/          # context api
+    │   │-- layouts/          # contains layout
+    │   │-- pages/            # Page components
+    │   │-- redux/            # redux setup
     │   │-- App.jsx           # Main application file
     │   │-- index.css          # css file
     │   │-- main.jsx          # Entry point
+    │-- .env
     │-- .gitignore
     │-- index.html
     │-- package.json
@@ -113,6 +120,8 @@ algoroot-assignment/frontend
 ## Technologies Used
 - Express.js 
 - Node.js 
+- Nodemailer
+- Cloudinary
 - React.js
 - React Router
 - TailwindCSS
@@ -121,7 +130,10 @@ algoroot-assignment/frontend
 
 ## Links
 
-- Frontend Link : `https://algoroot-assignment.vercel.app/`
-- Backend Link : `https://algoroot-assignment.backend.vercel.app/`
-- Postman Link : `https://www.postman.com/assignment-7873/algoroot-assignment/collection/vr8lvmt/algoroot-assignment?action=share&creator=35181588`
+- Frontend Link : [https://algoroot-assignment.vercel.app/](https://algoroot-assignment.vercel.app/)
+
+- Backend Link : [https://algoroot-assignment.backend.vercel.app/](https://algoroot-assignment.backend.vercel.app/)
+
+- Postman Link : [https://www.postman.com/assignment-7873/algoroot-assignment/collection/vr8lvmt/algoroot-assignment?action=share&creator=35181588](https://www.postman.com/assignment-7873/algoroot-assignment/collection/vr8lvmt/algoroot-assignment?action=share&creator=35181588)
+
 
