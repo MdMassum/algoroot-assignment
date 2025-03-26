@@ -115,7 +115,7 @@ export const forgotPassword = async (req: Request, res: Response, next: NextFunc
     user.resetPasswordExpire = new Date (Date.now() + 3600000); // 1 hour
     await user.save();
 
-    const resetPasswordUrl = `http://localhost:5173/reset-password/${resetToken}`;
+    const resetPasswordUrl = `${process.env.FRONTEND_URL}/reset-password/${resetToken}`;
 
     const message = `Your Password reset token is :\n ${resetPasswordUrl}\n\nIf you have not requested this email please ignore it !!`
 
